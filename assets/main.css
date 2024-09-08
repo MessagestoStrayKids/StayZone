@@ -5,8 +5,16 @@ body {
 		line-height: 1.0;
 		padding: 9%;
 		}
-	ul {
- 		list-style: none; 
+ul {
+		list-style-type: disc;
+		padding-left: 30px;
+		}
+		li {
+		color: rgba(142, 14, 29, 1);
+		}
+		img {
+		max-width: 100%;
+		height: auto;
 		}
 	a {
 		color: inherit;
