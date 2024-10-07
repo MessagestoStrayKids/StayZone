@@ -112,14 +112,14 @@ ul {
 		font-size: 18px;
 		}
 		mark {
-		background: linear-gradient(180deg, rgba(142, 14, 29, 1) 5%, rgba(84, 9, 18, 1) 90%);
+		background: linear-gradient(45deg, rgba(67, 67, 67, 1) 5%, rgba(215, 215, 215, 1) 90%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		font-family: 'Bakbak One';
 		font-size: 18px;
 		}
 		input[type='checkbox'] {
-		accent-color: rgba(142, 14, 29, 1);
+		accent-color: rgba(67, 67, 67, 1);
 		transform : scale(1.5);
 		margin-right: 8%;
 		margin-top: 3%;
