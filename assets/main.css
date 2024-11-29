@@ -10,7 +10,7 @@ ul {
 		padding-left: 30px;
 		}
 		li {
-		color: rgba(67, 67, 67, 1);
+		color: rgba(0, 63, 143, 1);
 		}
 		img {
 		max-width: 100%;
@@ -58,7 +58,7 @@ ul {
 		text-align: left;
 		}
 	h5 {
-		color: rgba(215, 215, 215, 1);
+		color: rgba(0, 63, 143, 1);
 		text-align: left;
 		font-family: 'Bakbak One';
 		font-size: 20px;
