@@ -1,3 +1,4 @@
+
 body {
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -21,7 +22,7 @@ ul {
 		}
 	h1 {
 		text-align: center;
-		background: linear-gradient(45deg, rgba(67, 67, 67, 1) 5%, rgba(215, 215, 215, 1) 90%);
+		background: linear-gradient(45deg, rgba(189, 190, 194, 1) 5%, rgba(0, 63, 143, 1) 90%);
 		border: 5px solid #FFFFFF;
 		color: #FFFFFF;
 		font-family: 'Bakbak One';
@@ -30,7 +31,7 @@ ul {
 		}
 	h2 {
 		border: 4px solid rgba(254, 0, 0, 1);
-		border-image: linear-gradient(45deg, rgba(67, 67, 67, 1) 5%, rgba(215, 215, 215, 1) 90%) 1;
+		border-image: linear-gradient(45deg, rgba(189, 190, 194, 1) 5%, rgba(0, 63, 143, 1) 90%) 1;
 		background: #000000;
 		color: #FFFFFF;
 		font-family: 'Bakbak One';
@@ -39,7 +40,7 @@ ul {
 		}
 	h3 {
 		border-radius: 25px;
-		background: linear-gradient(45deg, rgba(67, 67, 67, 1) 5%, rgba(215, 215, 215, 1) 90%);
+		background: linear-gradient(45deg, rgba(189, 190, 194, 1) 5%, rgba(0, 63, 143, 1) 90%);
 		color: #FFFFFF;
 		font-family: 'Bakbak One';
 		font-size: 24px;
@@ -48,7 +49,7 @@ ul {
 		}
 	h4 {
 		border-bottom: 2px solid rgba(254, 0, 0, 1);
-		border-image: linear-gradient(45deg, rgba(67, 67, 67, 1) 5%, rgba(215, 215, 215, 1) 90%) 1;
+		border-image: linear-gradient(45deg, rgba(189, 190, 194, 1) 5%, rgba(0, 63, 143, 1) 90%) 1;
 		background: #000000;
 		color: #FFFFFF;
 		font-family: 'Bakbak One';
@@ -56,14 +57,20 @@ ul {
 		font-size: 26px;
 		text-align: left;
 		}
+	h5 {
+		color: rgba(215, 215, 215, 1);
+		text-align: left;
+		font-family: 'Bakbak One';
+		font-size: 20px;
+		}
 	@media only screen and (max-width: 767px) {
 		body {
-		  	background-image: url('https://i.ibb.co/g3RqByJ/background-Giantmobile.jpg');
+		  	background-image: url('https://i.ibb.co/GdFQ0Cg/background-HOPmobile.jpg');
 		}
 		}
 	@media only screen and (min-width: 767px) {
 		body {
- 			background-image: url('https://i.ibb.co/wsV3XQg/background-Giant.jpg');
+ 			background-image: url('https://i.ibb.co/Dw5RfNT/background-HOP.jpg');
 		}
 		h3 {
 		display:inline;	
@@ -112,14 +119,14 @@ ul {
 		font-size: 18px;
 		}
 		mark {
-		background: linear-gradient(45deg, rgba(67, 67, 67, 1) 5%, rgba(215, 215, 215, 1) 90%);
+		background: linear-gradient(45deg, rgba(189, 190, 194, 1) 5%, rgba(0, 63, 143, 1) 90%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		font-family: 'Bakbak One';
 		font-size: 18px;
 		}
 		input[type='checkbox'] {
-		accent-color: rgba(67, 67, 67, 1);
+		accent-color: rgba(0, 63, 143, 1);
 		transform : scale(1.5);
 		margin-right: 8%;
 		margin-top: 3%;
