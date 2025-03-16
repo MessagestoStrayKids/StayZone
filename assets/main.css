@@ -1,3 +1,14 @@
+	ul {
+		list-style-type: disc;
+		padding-left: 30px;
+		}
+		li {
+		color: rgba(230, 110, 135, 1 1);
+		}
+		img {
+		max-width: 100%;
+		height: auto;
+		}
 
 	@supports not (-webkit-touch-callout: none) {
 	  /* CSS for other than iOS devices */ 
@@ -36,11 +47,6 @@
 		}
 		}
 
-
-
-	ul {
- 		list-style: none;
-		}
 	img {
 		max-width: 100%
 	}
