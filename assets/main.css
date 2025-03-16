@@ -251,36 +251,3 @@ font-family: 'Bakbak One';
 		  border-radius: 10px;
 		}
 
-#wrapper {
-	-webkit-overflow-scrolling: touch;
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	min-height: var(--viewport-height);
-	overflow: hidden;
-	position: relative;
-	z-index: 2;
-}
-
-#main {
-	--alignment: center;
-	--flex-alignment: center;
-	--indent-left: 1;
-	--indent-right: 1;
-	--margin-left: auto;
-	--margin-right: auto;
-	--border-radius-tl: 0;
-	--border-radius-tr: 0;
-	--border-radius-br: 0;
-	--border-radius-bl: 0;
-	align-items: center;
-	display: flex;
-	flex-grow: 0;
-	flex-shrink: 0;
-	justify-content: center;
-	max-width: 100%;
-	position: relative;
-	text-align: var(--alignment);
-	z-index: 1;
-}
