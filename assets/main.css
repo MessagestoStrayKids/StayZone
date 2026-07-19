@@ -7,7 +7,6 @@
 		}
 
 
-
 	@supports not (-webkit-touch-callout: none) {
 	  /* CSS for other than iOS devices */ 
 		body {
@@ -29,7 +28,7 @@
 
 	@media only screen and (max-width: 767px) {
 		body {
-		  	background-image: url('https://i.ibb.co/Kc5Pbf9q/background-SOLHmobile.jpg');
+		  	background-image: url('https://i.ibb.co/7xWH3qNy/background-TOTmobile.jpg');
 		}
 		main {
 			width: 100%
@@ -38,7 +37,7 @@
 		}
 	@media only screen and (min-width: 767px) {
 		body {
- 			background-image: url('https://i.ibb.co/bMspkCTk/background-SOLH.jpg');
+ 			background-image: url('https://i.ibb.co/rfQ1yQ7y/background-TOT.jpg');
 		}
 		main {
 			width: 75%;
@@ -54,16 +53,16 @@
 		}
 	h1 {
 		text-align: center;
-		background: url("https://i.ibb.co/WWt4sxkG/HDBEygaa-AAAj-QR01.jpg"); 
+		background: url("https://i.ibb.co/DfZCmS6p/HLt-PQNRb-YAATss-I-2.jpg"); 
 		background-size:100% 100%;
-		border: 5px solid rgb(252, 246, 214);
+		border: 5px solid #FFFFFF;
 		color: #FFFFFF;
 		font-family: 'Bakbak One';
 		font-style: Bold;
 		font-size: 56px;
 		}
 	h2 {		
-		border-image:  url("https://i.ibb.co/Ld6PHkfG/HCD80-E1b-IAAb-Cwi.jpg") 100 Stretch;
+		border-image:  url("https://i.ibb.co/yLGTxvJ/HLt-PQNRb-YAATss-I-1.jpg") 100 Stretch;
 		border-bottom: 4px solid transparent;
 		border-top: 4px solid transparent;
 		border-left: 4px solid transparent;
@@ -84,7 +83,7 @@
 		text-align: center;
 		}*/
 	h4 {
-		border-image: url("https://i.ibb.co/DDm7LhzD/markcolor.png") 100 Stretch;
+		border-image: url("https://i.ibb.co/Kz8s3LxL/HLt-PXWRbw-AANy82.jpg") 100 Stretch;
 		border-bottom: 3px solid transparent;
 		background: #000000; 
 		color: #FFFFFF;
@@ -94,7 +93,7 @@
 		text-align: left;
 		}
 	h5 {
-		background: linear-gradient(45deg, rgb(250, 233, 239, 1) 5%, rgba(252, 246, 214, 1) 50%, rgba(147, 181, 229, 1) 90%)/*url("https://i.ibb.co/Xrg2v1hr/DoitPink.jpg")*/; 
+		background: linear-gradient(45deg, rgb(233, 49, 17, 1) 5%, rgba(235, 85, 0, 1) 50%, rgba(255, 248, 103, 1) 90%)/*url("https://i.ibb.co/Xrg2v1hr/DoitPink.jpg")*/; 
 		background-size: cover;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
@@ -156,7 +155,7 @@ details > summary {
 		}
 
 		mark {
-		background: linear-gradient(45deg, rgb(250, 233, 239, 1) 5%, rgba(252, 246, 214, 1) 50%, rgba(147, 181, 229, 1) 90%);/*url("https://i.ibb.co/DDm7LhzD/markcolor.png")*/;
+		background: linear-gradient(45deg, rgb(233, 49, 17, 1) 5%, rgba(235, 85, 0, 1) 50%, rgba(255, 248, 103, 1) 90%);/*url("https://i.ibb.co/DDm7LhzD/markcolor.png")*/;
 		background-size: cover;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
@@ -169,20 +168,28 @@ details > summary {
 		background-size: cover;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;*/
-		Color: rgb(252, 246, 214, 1);
+		Color: rgb(255, 248, 103, 1);
 		font-family: 'Bakbak One';
 		font-size: 18px;
 		text-decoration: none;
 		}
 
 		input[type='checkbox'] {
-		accent-color: rgba(252, 246, 214, 1);
+		accent-color: rgba(235, 85, 0, 1);
 		transform : scale(1.5);
 		margin-right: 8%;
 		margin-top: 3%;
 		margin-bottom: 3%;
 		}
 
+		.floating-button {
+		  position: fixed;   
+		  bottom: 20px;      
+		  left: 20px;       
+		  z-index: 1000;     
+			background: none;
+			border: none;
+		}
 
 		.dropbtn {
 		  padding: 0.2em 0.6em;
@@ -204,7 +211,7 @@ details > summary {
 		
 		.dropbtn:before {
 		  content: "";
-		 background: linear-gradient(45deg, rgb(250, 233, 239, 1) 5%, rgba(252, 246, 214, 1) 50%, rgba(147, 181, 229, 1) 90%)/*url("https://i.ibb.co/DDm7LhzD/markcolor.png")*/;
+		 background: linear-gradient(45deg, rgb(233, 49, 17, 1) 5%, rgba(235, 85, 0, 1) 50%, rgba(255, 248, 103, 1) 90%)/*url("https://i.ibb.co/DDm7LhzD/markcolor.png")*/;
 		background-size: cover;
 		  position: absolute;
 		  top: -2px;
@@ -259,7 +266,7 @@ details > summary {
 		}
 		
 		.dropdown-content a {
-		  color: rgba(250, 233, 239, 1);
+		  color: rgb(235, 85, 0);
 		  padding: 12px 16px;
 		font-family: 'Bakbak One';
 		  text-decoration: none;
@@ -268,9 +275,9 @@ details > summary {
 		
 		.dropdown:hover .dropdown-content {display: block;}
 		
-		.dropdown-content a:hover {background-color: rgba(252, 246, 214, 1);}
+		.dropdown-content a:hover {background-color: rgb(255, 248, 103, 1);}
 		
-		.dropdown:hover .dropbtn {background-color: rgba(252, 246, 214, 1);}
+		.dropdown:hover .dropbtn {background-color: rgb(255, 248, 103, 1);}
 		
 		.button-85 {
 		  padding: 0.2em 0.6em;
@@ -292,7 +299,7 @@ details > summary {
 		
 		.button-85:before {
 		  content: "";
-		 background: linear-gradient(45deg, rgb(250, 233, 239, 1) 5%, rgba(252, 246, 214, 1) 50%, rgba(147, 181, 229, 1) 90%) /*url("https://i.ibb.co/DDm7LhzD/markcolor.png")*/;
+		 background: linear-gradient(45deg, rgb(233, 49, 17, 1) 5%, rgba(235, 85, 0, 1) 50%, rgba(255, 248, 103, 1) 90%) /*url("https://i.ibb.co/DDm7LhzD/markcolor.png")*/;
 		background-size: cover;
 		  position: absolute;
 		  top: -2px;
